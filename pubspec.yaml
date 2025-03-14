@@ -1,0 +1,67 @@
+name: old_portfolio
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  animated_splash_screen: ^1.3.0
+  animated_text_kit: ^4.2.2
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2
+  flutter_native_splash: ^2.4.4
+  flutter_svg: ^2.0.16
+  google_fonts: ^6.2.1
+  lottie: ^3.3.1
+  share_plus: ^10.1.3
+  url_launcher: ^6.3.1
+  url_launcher_windows: ^3.1.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter_native_splash:
+  color: "#1E1E28"   # Color of the background of the splash screen 
+  image: assets/master/splash_screen.png  # image path
+  android_12:
+    image: assets/master/splash_screen.png  # image path
+    color: "#1E1E28"   # Color of the background of the splash screen 
+
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/master/icon.png"  # Logo image path 
+  min_sdk_android: 21
+
+
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/master/
+
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
